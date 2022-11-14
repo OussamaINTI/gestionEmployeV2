@@ -4,7 +4,7 @@ public class Employe {
 	private Long idEmploye;
 	private String nomEmploye;
 	private int age;
-	private float salaire;
+	private float salaireeeeeeeeeeeeeee;
 	public Employe() {
 		super();
 		// TODO Auto-generated constructor stub
