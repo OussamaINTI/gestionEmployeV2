@@ -1,26 +1,27 @@
 package com.inti.model;
 
 public class Departement {
-	private Long idDepartement;
+	private Long idDept;
 
 	public Departement() {
 	}
 
-	public Departement(Long idDepartement) {
-		this.idDepartement = idDepartement;
+	public Departement(Long idDept) {
+		this.idDept = idDept;
 	}
 
-	public Long getIdDepartement() {
-		return idDepartement;
+	public Long getIdDept() {
+		return idDept;
 	}
 
-	public void setIdDepartement(Long idDepartement) {
-		this.idDepartement = idDepartement;
+	public void setIdDept(Long idDept) {
+		this.idDept = idDept;
 	}
 
 	@Override
 	public String toString() {
-		return "Departement [idDepartement=" + idDepartement + "]";
+
+		return "Departement [idDept=" + idDept + "]";
 	}
-	
+
 }
